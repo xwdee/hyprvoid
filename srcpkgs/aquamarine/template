@@ -1,6 +1,6 @@
 # Template file for 'aquamarine'
 pkgname=aquamarine
-version=0.8.0
+version=0.9.5
 revision=2
 build_style=cmake
 configure_args+=" --no-warn-unused-cli"
@@ -24,12 +24,12 @@ makedepends="
   wayland-protocols
 "
 short_desc="Aquamarine is a very light linux rendering backend library"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Xunta <xunta@localhost>"
 license="LGPL-3.0-only"
 homepage="https://hyprland.org/hyprlang/index.html"
 changelog="https://github.com/hyprwm/aquamarine/releases"
 distfiles="https://github.com/hyprwm/aquamarine/archive/refs/tags/v${version}.tar.gz"
-checksum=1c3570de268fff008c6dd76472d783710b7f62c545f76091580c9edd13ad23d5
+checksum=657e4752542872549a556d9facb8a525276b4edd5ca197818835904768aaad40
 
 post_install() {
   vlicense LICENSE

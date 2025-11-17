@@ -1,6 +1,6 @@
 # Template file for 'glaze'
 pkgname=glaze
-version=4.4.3
+version=6.0.3
 revision=1
 build_style=cmake
 configure_args+=" -DBUILD_TESTING:BOOL=OFF"
@@ -12,11 +12,11 @@ hostmakedepends="
   pkgconf
 "
 short_desc="Extremely fast, in memory, JSON and interface library for modern C++"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Xunta <xunta@localhost>"
 license="MIT"
 homepage="https://github.com/stephenberry/glaze"
 distfiles="https://github.com/stephenberry/glaze/archive/refs/tags/v${version}.tar.gz"
-checksum=d0dd03f156f95860bf9c2957da0704ee0f7651e21089ff34e3d26fa0190e8684
+checksum=f73f70b813df0bf1536c4bb868aec7c0e55f9160b8798b6fc9d66735ab475ef4
 
 post_install() {
   vlicense LICENSE

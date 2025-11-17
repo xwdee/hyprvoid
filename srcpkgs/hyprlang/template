@@ -1,6 +1,6 @@
 # Template file for 'hyprlang'
 pkgname=hyprlang
-version=0.6.3
+version=0.6.5
 revision=1
 build_style=cmake
 configure_args+=" --no-warn-unused-cli"
@@ -14,9 +14,9 @@ makedepends="
   hyprutils
 "
 short_desc="Official implementation library for the hypr config language"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Xunta <xunta@localhost>"
 license="LGPL-3.0-only"
 homepage="https://hyprland.org/hyprlang/index.html"
 changelog="https://github.com/hyprwm/hyprlang/releases"
 distfiles="https://github.com/hyprwm/hyprlang/archive/refs/tags/v${version}.tar.gz"
-checksum=f5effe017edc7a0036c20c7ecbea4edc2bfdacbc0f791b283bd21ec202384251
+checksum=2bac16a734c72be72b9e43d28d195d59ecd7dfbbdd63c888864992093e14c6db

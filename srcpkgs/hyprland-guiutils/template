@@ -1,6 +1,6 @@
-# Template file for 'hyprland-qtutils'
-pkgname=hyprland-qtutils
-version=0.1.4
+# Template file for 'hyprland-guiutils'
+pkgname=hyprland-guiutils
+version=0.1.0
 revision=1
 build_style=cmake
 configure_args+=" --no-warn-unused-cli"
@@ -25,12 +25,12 @@ qtmakedepends="
 "
 hostmakedepends+=" ${qtmakedepends}"
 makedepends+=" ${qtmakedepends}"
-short_desc="Qt/QML utility apps for Hyprland"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+short_desc="Hyprland GUI utilities"
+maintainer="Xunta <xunta@localhost>"
 license="BSD-3-Clause"
-homepage="https://github.com/hyprwm/hyprland-qtutils"
-distfiles="https://github.com/hyprwm/hyprland-qtutils/archive/refs/tags/v${version}.tar.gz"
-checksum="56a83f4625feeed86bbc5d744b91d2074330c5aa41adf6e32c023f06f9fb9d34"
+homepage="https://github.com/hyprwm/hyprland-guiutils"
+distfiles="https://github.com/hyprwm/hyprland-guiutils/archive/refs/tags/v${version}.tar.gz"
+checksum="4edb387a49b29cc547c991e3238a3e6de69336408ba4d9881ab1ba4d6a9dd542"
 
 post_install() {
   vlicense LICENSE
